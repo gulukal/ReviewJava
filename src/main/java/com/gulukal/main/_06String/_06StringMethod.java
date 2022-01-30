@@ -49,6 +49,16 @@ public class _06StringMethod {
 
     }
 
+//    public static void cloneMethod(){
+//        String str1 = "hello";
+//        String str2 = str1; //reference to the same string
+//        str1 = "bye"; //new string created
+//
+//        String str3 = "hello";
+//        String str4 = (String)str3.clone();//reference to the same string
+//        str3 = "bye";//new string created
+//    }
+
     public static void stringFormat() {
         String str1 = String.format("%d", 101);      // 101
         String str2 = String.format("|%10d|", 101);  // |       101| Specifying length of integer
